@@ -1,0 +1,181 @@
+/*
+
+Theme Name: Altran Theme
+Description: Teste Altran
+Version: 1
+Author: Diogo Glinglani
+*/
+
+@import url('css/bootstrap.min.css');
+
+/* Fonts */
+
+@font-face {
+    font-family: 'dosisbold';
+    src: url('fonts/dosis-bold-webfont.woff2') format('woff2'),
+         url('fonts/dosis-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dosisextrabold';
+    src: url('fonts/dosis-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/dosis-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dosisextralight';
+    src: url('fonts/dosis-extralight-webfont.woff2') format('woff2'),
+         url('fonts/dosis-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dosislight';
+    src: url('fonts/dosis-light-webfont.woff2') format('woff2'),
+         url('fonts/dosis-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dosismedium';
+    src: url('fonts/dosis-medium-webfont.woff2') format('woff2'),
+         url('fonts/dosis-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dosisregular';
+    src: url('fonts/dosis-regular-webfont.woff2') format('woff2'),
+         url('fonts/dosis-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dosissemibold';
+    src: url('fonts/dosis-semibold-webfont.woff2') format('woff2'),
+         url('fonts/dosis-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #e6e6e6;
+}
+nav.navbar.navbar-default {
+    background: #ed1c24;
+    border-radius: 0;
+}
+
+form#searchform.form-4rodas {
+    display: block;
+    float: right;
+    position: relative;
+    top: 7px;
+    width: 14%;
+}
+nav.navbar.navbar-default {
+    background: #ed1c24;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-family: "dosissemibold",sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 10px;
+}
+.col-md-12.images-home .col-md-5, .col-md-7, .col-md-6 {
+    padding: 0;
+}
+.col-md-12.coluna-02 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.row.artigos {
+    padding-top: 1em;
+}
+.row.artigos .col-md-12 {
+    padding: 0;
+}
+.col-md-3.artigo h4 {
+    font-family: "dosissemibold",sans-serif;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.col-md-3.artigo p{
+	font-family: "dosismedium",sans-serif;
+}
+.col-md-3.artigo a.saiba-mais{
+	font-family: "dosissemibold",sans-serif;
+	color: #ed1c24;
+	font-size: 14px;
+}
+img.img-responsive.propaganda-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px)
+{ 
+	div#bs-example-navbar-collapse-1 {
+	    width: 60%;
+	    display: block !important;
+	    float: left;
+	    padding: 0;
+	    position: relative;
+	    left: 86px;
+	}
+	.home-image {
+    	height: 100%;
+	}
+}
+@media (max-width: 1024px){
+	form#searchform.form-4rodas {
+		display: none;
+	}
+	img.img-responsive.propaganda-image{
+		display: none;
+	}
+
+}
+@media (min-width: 480px) and (max-width: 980px){
+	.col-md-5 img.img-responsive.home-image {
+	    width: 100%;
+	}
+	.col-md-12.coluna-02 .col-md-6 {
+	    width: 50%;
+	    float: left;
+	}
+	.col-md-3.artigo {
+	    width: 50%;
+	    display: block;
+	    float: left;
+	}
+}
